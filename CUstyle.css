@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --blue:#0000ff;
+    --theme-color:purple;
     --black:#130f40;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -54,7 +54,7 @@ section{
 }
 
 .heading span{
-    background: var(--blue);
+    background: var(--theme-color);
     color:#fff;
     display: inline-block;
     padding:.5rem 3rem;
@@ -74,7 +74,7 @@ section{
 }
 
 .btn:hover{
-    background: var(--blue);
+    background: var(--theme-color);
     color:#fff;
 }
 
@@ -97,7 +97,7 @@ section{
 }
 
 .header .logo i{
-    color:var(--blue);
+    color:var(--theme-color);
 }
 
 .header .navbar a{
@@ -107,7 +107,7 @@ section{
 }
 
 .header .navbar a:hover{
-    color:var(--blue);
+    color:var(--theme-color);
 }
 
 .header .icons div{
@@ -124,7 +124,7 @@ section{
 }
 
 .header .icons div:hover{
-    background: var(--blue);
+    background: var(--theme-color);
     color:#fff;
 }
 
@@ -168,7 +168,7 @@ section{
 }
 
 .header .search-form label:hover{
-    color:var(--blue);
+    color:var(--theme-color);
 }
 
 .header .shopping-cart{
@@ -208,7 +208,7 @@ section{
 }
 
 .header .shopping-cart .box .fa-trash:hover{
-    color:var(--blue);
+    color:var(--theme-color);
 }
 
 .header .shopping-cart .box .content h3{
@@ -279,7 +279,7 @@ section{
 }
 
 .header .login-form p a{
-    color:var(--blue);
+    color:var(--theme-color);
     text-decoration: underline;
 }
 
@@ -305,7 +305,7 @@ section{
 }
 
 .home .content h3 span{
-    color:var(--blue);
+    color:var(--theme-color);
 }
 
 .home .content p{
@@ -394,13 +394,13 @@ section{
 
 .products .product-slider .box .stars i{
     font-size: 1.7rem;
-    color:var(--blue);
+    color:var(--theme-color);
     padding:.5rem 0;
 }
 
 .categories .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     gap:1.5rem;
 }
 
@@ -412,16 +412,25 @@ section{
     outline:var(--outline);
     outline-offset: -1rem;
     text-align: center;
+    font-weight: 500;
 }
 
+
 .categories .box-container .box:hover{
-    outline:var(--outline-hover);
-    outline-offset: 0rem;
+    outline:thick double #9110cd;
+    outline-offset: 0.4rem;
+    transform: translate(-5%, -5%);
+
 }
 
 .categories .box-container .box img{
     margin:1rem 0;
     height:15rem;
+}
+
+.categories .box-container .box img:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 
 .categories .box-container .box h3{
@@ -477,7 +486,7 @@ section{
 }
 
 .review .review-slider .box .stars i{
-    color:var(--blue);
+    color:var(--theme-color);
     font-size: 1.7rem;
 }
 
@@ -523,7 +532,7 @@ section{
 }
 
 .blogs .box-container .box .content .icons a i{
-    color:var(--blue);
+    color:var(--theme-color);
     padding-right: .5rem;
 }
 
@@ -558,7 +567,7 @@ section{
 }
 
 .footer .box-container .box h3 i{
-    color:var(--blue);
+    color:var(--theme-color);
 }
 
 .footer .box-container .box .links{
@@ -569,7 +578,7 @@ section{
 }
 
 .footer .box-container .box .links i{
-    color:var(--blue);
+    color:var(--theme-color);
     padding-right: .5rem;
 }
 
@@ -598,7 +607,7 @@ section{
 }
 
 .footer .box-container .box .share a:hover{
-    background: var(--blue);
+    background: var(--theme-color);
     color: #fff;
 }
 
@@ -630,7 +639,7 @@ section{
 }
 
 .footer .credit span{
-    color:var(--blue);
+    color:var(--theme-color);
 }
 
 
