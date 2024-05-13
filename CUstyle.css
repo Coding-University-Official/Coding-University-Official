@@ -459,11 +459,16 @@ section{
     outline: var(--outline);
     box-shadow: var(--box-shadow);
     transition: .2s linear;
+    height: 35rem;
+    overflow: hidden;
+    font-weight: 500;
 }
 
-.review .review-slider .box:hover{
-    outline:var(--outline-hover);
+.review .review-slider .box:hover {
+    outline: thick double #9110cd;
     outline-offset: 0rem;
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
 
 .review .review-slider .box img{
