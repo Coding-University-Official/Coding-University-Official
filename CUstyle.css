@@ -318,7 +318,7 @@ section{
 .features .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
+    gap:2.5rem;
 }
 
 .features .box-container .box{
@@ -328,11 +328,13 @@ section{
     outline-offset: -1rem;
     text-align: center;
     box-shadow: var(--box-shadow);
+    border-radius: 3rem;
 }
 
 .features .box-container .box:hover{
-    outline: var(--outline-hover);
-    outline-offset: 0rem;
+    outline:thick double #9110cd;
+    outline-offset: 0.1rem;
+    transform: translate(-1%, -1%);
 }
 
 .features .box-container .box img{
@@ -373,8 +375,9 @@ section{
 }
 
 .products .product-slider .box:hover{
-    outline-offset: 0rem;
-    outline: var(--outline-hover);
+    outline:thick double #9110cd;
+    outline-offset: 0.1rem;
+    transform: translate(-1%, -1%);
 }
 
 .products .product-slider .box img{
