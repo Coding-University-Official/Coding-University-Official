@@ -439,7 +439,7 @@ section{
 
 .categories .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     gap:1.5rem;
 }
 
@@ -468,8 +468,8 @@ section{
 }
 
 .categories .box-container .box img:hover{
-    -webkit-transform: scale(1.3);
-	transform: scale(1.3);
+    -webkit-transform: scale(0.2rem);
+	transform: scale(0.2rem);
 }
 
 .categories .box-container .box h3{
@@ -503,7 +503,7 @@ section{
     font-weight: 500;
 }
 
-.review .review-slider .box:hover {
+.review .review-slider .box:hover { 
     outline: thick double #9110cd;
     outline-offset: 0rem;
     transform: scale(1.05); /* Scale up on hover */
